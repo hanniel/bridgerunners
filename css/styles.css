@@ -6,7 +6,7 @@ body{
 
 /* TYPOGRAPHY */
 
-a{
+a, a :visited{
   color: #ff3c00;
   margin: 8px;
   text-decoration: underline;
