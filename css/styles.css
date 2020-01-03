@@ -6,8 +6,14 @@ body{
 
 /* TYPOGRAPHY */
 
+a{
+  color: #ff3c00;
+  margin: 8px;
+  text-decoration: underline;
+}
+
 h1{
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   text-transform: uppercase;
   margin: 0;
