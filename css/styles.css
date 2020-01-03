@@ -1,5 +1,5 @@
 body{
-  font-family: 'Lexend Zetta', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   color: #fff;
   background-color: #000;
 }
@@ -64,11 +64,6 @@ h1{
 .no-margin{
   margin: 8px 0;
 }
-
-.serif{
-  font-family: 'Lexend Zetta', sans-serif;
-}
-
 
 .flex-center{
   display: flex;
