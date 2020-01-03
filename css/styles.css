@@ -13,7 +13,9 @@ a, a :visited{
 }
 
 h1{
-  font-size: 26px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   line-height: 1;
   margin: 0;
   padding: 0;
