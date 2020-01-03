@@ -14,7 +14,7 @@ a, a :visited{
 
 h1{
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 1;
   margin: 0;
@@ -27,7 +27,8 @@ h1{
 }
 @media screen and (min-width: 900px){
   h1{
-    font-size: 72px;
+     font-size: 16px;
+  letter-spacing: 2px;
     line-height: 1;
     margin: 0;
     padding: 0;
