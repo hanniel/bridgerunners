@@ -1,0 +1,149 @@
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* TYPOGRAPHY */
+
+a, a:visited{
+  color: #ff3c00;
+  margin: 8px;
+  text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: solid #ff3c00 2px;
+}
+
+a:hover{
+  color: #ee7777;
+  border-bottom: dotted #ee7777 2px;
+}
+
+.wide{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1{
+  font-size: 38px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.statement{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+/* NAVIGATION BAR */
+
+.main-nav{
+  position: absolute;
+    width: 240px;
+    top: 32px;
+    left: 24px;
+    transform-origin: bottom right;
+}
+
+/* CONSTRUCTION SITE */
+.intro-animation{
+  opacity: 0;
+  animation: intro-animation 0.4s ease-out forwards;
+  animation-delay: 0.8s;
+  transform: translateY(11vh);
+  }
+
+  @keyframes intro-animation{
+    to {
+    opacity: 1;
+    }
+  }
+
+  .intro-svg{
+    max-width: 160px;
+    margin-top: calc(40vh - 120px);
+    margin-left: calc(100% - 200px);
+
+  }
+
+.fade{
+  opacity: 0;
+  transform:translateY(5px);
+  animation: fade 0.4s ease-out forwards;
+  animation-delay: 0.8s;
+  }
+
+  @keyframes fade{
+    to {
+    opacity: 1;
+    transform:translateY(0px);
+    }
+  }
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+.intro{
+  height: 40vh;
+  background-color: #000;
+
+}
+.intro-img{
+background: url(img/lauftraining-intervalle-duesseldorf-leichtathletik-bahn.jpg) center center;
+background-size: cover;
+height: 40vh;
+width: 100%;
+}
+.container{
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 24px;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1000px){
+  h1{
+    font-size: 72px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* NAVIGATION BAR */
+
+  .main-nav{
+    position: absolute;
+      width: 240px;
+      top: 0;
+      left: -190px;
+      transform-origin: bottom right;
+      transform: rotate(-90deg);
+  }
+
+
+  .container{
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .intro-animation{
+    transform: translateY(10vh);
+    }
+
+  .intro-svg{
+      max-width: 200px;
+      margin-top: calc(40vh - 140px);
+      margin-left: calc(100% - 200px);
+
+    }
+
+}
