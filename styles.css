@@ -54,7 +54,7 @@ h1{
     transform-origin: bottom right;
 }
 
-/* CONSTRUCTION SITE */
+/* INTRO */
 .intro-animation{
   opacity: 0;
   animation: intro-animation 0.6s ease-out forwards;
@@ -150,13 +150,69 @@ animation: stretch 1.1s ease-in-out forwards;
   100%{background: url(img/lauftraining-intervalle-duesseldorf-leichtathletik-bahn.jpg) center ;}
 }
 
+/* Layout */
 
+.dark-bg{
+  background-color: #000;
+}
 
 .container{
   margin: 0 auto;
   width: 100%;
-  padding: 0 24px;
+  padding: 24px 24px;
 }
+
+.col-2{
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+.child-320{
+  flex-grow: 1;
+  flex-basis: 320px;
+}
+
+/* EVENTS */
+
+.event-parent{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 700px){
+.event-parent:nth-child(2n+1){
+  margin-right: 16px;
+}
+}
+
+.date, .title, .descr{
+  border: solid #707070 2px;
+  padding: 8px 12px;
+  margin: -1px;
+}
+
+.title,.descr{
+  flex-grow: 1;
+}
+
+.descr{
+  width: 100%;
+}
+
+.event-link{
+  text-align: right;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.date > h3, .title > h3{
+  margin: 0;
+}
+
+
 
 /* DESKTOP */
 
