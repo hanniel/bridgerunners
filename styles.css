@@ -27,7 +27,7 @@ a:hover{
 
 .inline-link{
   border: none;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .inline-link:hover{
   color: #ff3c00;
@@ -57,7 +57,7 @@ a:hover{
   color: #fff;
 }
 .light-grey{
-  color: #ebebeb;
+  color: #dbdbdb;
 }
 
 .grey{
