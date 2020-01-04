@@ -35,12 +35,12 @@ a:hover{
   opacity: 1;
 }
 
-naked-link{
+.naked-link{
   margin:0;
   border:none;
   padding:0;
 }
-naked-link:hover{
+.naked-link:hover{
   margin:0;
   border:none;
   padding:0;
