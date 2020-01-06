@@ -1,11 +1,14 @@
 <svg id="bridgerunners-duesseldorf-lauftreff" data-name="bridgerunners-duesseldorf-lauftreff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429.42 1430.45">
   <defs>
     <style>
-      #bridgerunners-duesseldorf {
+      .bridgerunners-duesseldorf {
         fill: #fff;
       }
-      path#bridgerunners-duesseldorf:hover {
+      .bridgerunners-duesseldorf:hover {
         fill: #ff3c00;
+      }
+      #hit-box{
+      opacity: 0;
       }
     </style>
   </defs>
@@ -23,7 +26,8 @@
     }
 
   </style>
-<g id="bridgerunners-duesseldorf">
+<a class="bridgerunners-duesseldorf" href="#track-thursday">
+  <rect id="hit-box" x="0" y="0" width="1429.42" height="1430.45"/>
   <g id="circle">
     <path class="cls-1" d="M162.3,511.86,152,509.17c17.76-67.93,56.35-121,85.59-153.65,31.68-35.31,58.8-54.33,59.94-55.13l6.08,8.73c-.27.19-27.43,19.27-58.3,53.73C216.94,394.54,179.49,446.11,162.3,511.86Z"/>
     <polygon class="cls-1" points="291.47 352.07 281.57 348.19 299.05 303.65 247.48 318.45 244.55 308.23 316.82 287.48 291.47 352.07"/>
@@ -81,5 +85,5 @@
     <rect class="cls-1" x="600.54" y="452.22" width="118.94" height="6.16" transform="translate(-125.81 295.95) rotate(-23.14)"/>
     <rect class="cls-1" x="656.6" y="463.68" width="60.54" height="6.16" transform="translate(-128.16 307.42) rotate(-23.14)"/>
   </g>
-</g>
+</a>
 </svg>
