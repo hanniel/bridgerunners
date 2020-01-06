@@ -121,6 +121,17 @@ p{
   width:32px;
   margin: 4px 8px -14px 8px;
   height:auto;
+  filter: invert(40%) sepia(80%) saturate(6715%) hue-rotate(360deg) brightness(101%) contrast(107%);
+}
+
+.rotate{
+  transform: rotate(0deg);
+}
+
+.social-profile{
+  width:32px;
+  margin: 4px 8px -14px 8px;
+  height:auto;
   transform: rotate(0deg);
   filter: invert(40%) sepia(80%) saturate(6715%) hue-rotate(360deg) brightness(101%) contrast(107%);
 }
@@ -258,6 +269,9 @@ width: 100%;
 .dark-bg{
   background-color: #000;
 }
+.grey-bg{
+  background-color: #ddd;
+}
 .color-bg{
   background-color: #ff3c00;
 }
@@ -380,7 +394,7 @@ width: 100%;
       transform: rotate(-90deg);
   }
 
-  .social{
+  .rotate{
     transform: rotate(90deg);
   }
 
