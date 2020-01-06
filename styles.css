@@ -67,6 +67,11 @@ a:hover{
 .light{
   color: #fff;
 }
+
+.dark{
+  color: #000;
+}
+
 .light-grey{
   color: #dbdbdb;
 }
@@ -77,7 +82,7 @@ a:hover{
 
 .wide{
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h1, .statement{
@@ -374,6 +379,10 @@ width: 100%;
     font-size: 18px;
     line-height: 1.6;
     margin: 10px 0 20px 0;
+  }
+
+  .wide{
+    letter-spacing: 2px;
   }
 
   @keyframes intro-animation{
