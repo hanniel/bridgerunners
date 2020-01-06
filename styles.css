@@ -120,7 +120,7 @@ p{
   @keyframes intro-animation{
     to {
     opacity: 1;
-    transform: translateY(10vh);
+    transform: translateY(11vh);
     }
   }
 
@@ -219,6 +219,9 @@ width: 100%;
 
 /* Layout */
 
+.hide-mobile {
+  display:none;
+}
 
 .no-margin{
   margin: 0;
@@ -286,6 +289,10 @@ width: 100%;
   width: 100%;
 }
 
+.title{
+  flex-basis: 150px;
+}
+
 .event-link{
   text-align: right;
   margin-left: auto;
@@ -327,7 +334,12 @@ width: 100%;
     margin: 10px 0 20px 0;
   }
 
-
+  @keyframes intro-animation{
+    to {
+    opacity: 1;
+    transform: translateY(6vh);
+    }
+  }
 
   /* NAVIGATION BAR */
 
@@ -355,15 +367,15 @@ width: 100%;
     padding: 48px 0;
   }
 
-  .intro-animation{
-    transform: translateY(4vh);
-    }
-
   .intro-svg{
       max-width: 200px;
       margin-top: calc(40vh - 140px);
       margin-left: calc(100% - 200px);
 
+    }
+
+    .hide-mobile {
+      display:block;
     }
 
 }
