@@ -4,9 +4,11 @@
       .bridgerunners-duesseldorf {
         fill: #fff;
       }
+
       .bridgerunners-duesseldorf:hover {
         fill: #ff3c00;
       }
+
       #hit-box{
       opacity: 0;
       }
@@ -26,7 +28,7 @@
     }
 
   </style>
-<a class="bridgerunners-duesseldorf" href="#track-thursday">
+  <a class="bridgerunners-duesseldorf" href="#track-thursday">
   <rect id="hit-box" x="0" y="0" width="1429.42" height="1430.45"/>
   <g id="circle">
     <path class="cls-1" d="M162.3,511.86,152,509.17c17.76-67.93,56.35-121,85.59-153.65,31.68-35.31,58.8-54.33,59.94-55.13l6.08,8.73c-.27.19-27.43,19.27-58.3,53.73C216.94,394.54,179.49,446.11,162.3,511.86Z"/>

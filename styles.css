@@ -156,6 +156,7 @@ p{
 }
 
 
+
 .flex-center{
   display: flex;
   align-items: center;
@@ -164,10 +165,10 @@ p{
 .intro{
   height: 40vh;
   background-color: #000;
-
   z-index: 2;
-
 }
+
+
 
 .intro-overlay{
   content:'';
