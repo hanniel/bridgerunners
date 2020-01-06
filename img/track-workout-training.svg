@@ -1,0 +1,84 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 328">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: #e6e6e6;
+      }
+
+      .cls-3 {
+        stroke: #f2f2f2;
+      }
+
+      .cls-4 {
+        fill: #e6e6e6;
+      }
+
+      .cls-5 {
+        fill: #ff3d00;
+      }
+
+      .cls-6 {
+        fill: #999;
+      }
+
+      .cls-7 {
+        fill: #1a1a1a;
+      }
+
+      .cls-8 {
+        font-size: 10.92px;
+        fill: #ccc;
+        font-family: LexendZetta-Regular, Lexend Zetta;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="509.67" y1="271.01" x2="343.8" y2="105.15" gradientTransform="translate(800 322.69) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <title>track-workout</title>
+  <rect class="cls-1" x="-9" y="-9" width="818" height="340.69" transform="translate(800 322.69) rotate(180)"/>
+  <path class="cls-2" d="M637.59,117.47a52,52,0,1,0,0,104.07H893.78V117.47Z"/>
+  <path class="cls-2" d="M635.22,92.75a76.86,76.86,0,1,0,0,153.71H892.84V92.75Z"/>
+  <path class="cls-2" d="M635.67,66.05a103.56,103.56,0,1,0,0,207.11H892.84V66.05Z"/>
+  <path class="cls-2" d="M634.58,39a130.61,130.61,0,0,0,0,261.21H892.84V39Z"/>
+  <path id="path-inner" class="cls-3" d="M637.13,105.12a64.37,64.37,0,1,0,0,128.73H954V105.12Z"/>
+  <path id="path-center" class="cls-3" d="M635.47,79.61a90,90,0,1,0,0,180H937.14v-180Z"/>
+  <path id="path-outher" class="cls-3" d="M637,52.15a117.46,117.46,0,1,0,0,234.91H928.71V52.15Z"/>
+  <polygon class="cls-4" points="772.82 111.22 760.95 105.28 772.82 99.34 772.82 111.22"/>
+  <polygon class="cls-4" points="772.82 84.97 760.95 79.03 772.82 73.09 772.82 84.97"/>
+  <polygon class="cls-4" points="772.82 58.72 760.95 52.78 772.82 46.83 772.82 58.72"/>
+  <circle id="circle-inner" class="cls-5" cx="672.74" cy="233.73" r="5.63"/>
+  <circle id="circle-center" class="cls-6" cx="572.42" cy="99.66" r="5.63"/>
+  <circle id="circle-outer" class="cls-7" cx="530.23" cy="214.98" r="5.63"/>
+  <g id="circle">
+    <text class="cls-8" transform="matrix(-0.55, -0.84, 0.84, -0.55, 518.28, 254.41)">I</text>
+    <text class="cls-8" transform="translate(513.18 246.72) rotate(-118.91)">M</text>
+    <text class="cls-8" transform="matrix(-0.41, -0.91, 0.91, -0.41, 507.08, 235.59)">P</text>
+    <text class="cls-8" transform="translate(502.8 226.23) rotate(-110.38)">R</text>
+    <text class="cls-8" transform="translate(499.02 216.13) rotate(-106.02)">O</text>
+    <text class="cls-8" transform="translate(495.84 204.99) rotate(-101.84)">V</text>
+    <text class="cls-8" transform="translate(493.73 194.92) rotate(-97.93)">E</text>
+    <text class="cls-8" transform="translate(492.41 185.04) rotate(-95.02)"> </text>
+    <text class="cls-8" transform="translate(491.88 179.85) rotate(-92.05)">Y</text>
+    <text class="cls-8" transform="matrix(0.04, -1, 1, 0.04, 491.48, 169.89)">O</text>
+    <text class="cls-8" transform="translate(491.91 157.98) rotate(-83.57)">U</text>
+    <text class="cls-8" transform="matrix(0.19, -0.98, 0.98, 0.19, 493.17, 146.79)">R</text>
+    <text class="cls-8" transform="matrix(0.24, -0.97, 0.97, 0.24, 495.28, 136.03)"> </text>
+    <text class="cls-8" transform="translate(496.46 130.97) rotate(-73.22)">S</text>
+    <text class="cls-8" transform="translate(499.36 121.31) rotate(-69.27)">P</text>
+    <text class="cls-8" transform="translate(503 111.7) rotate(-65.36)">E</text>
+    <text class="cls-8" transform="translate(507.15 102.64) rotate(-61.51)">E</text>
+    <text class="cls-8" transform="matrix(0.54, -0.84, 0.84, 0.54, 511.88, 93.87)">D</text>
+  </g>
+</svg>

@@ -281,6 +281,10 @@ width: 100%;
   background-color: #ff3c00;
 }
 
+.track-bg{
+  background-color: #f2f2f2;
+}
+
 .container{
   margin: 0 auto;
   width: 100%;
@@ -289,6 +293,12 @@ width: 100%;
 .max-w-600{
   max-width: 600px;
 }
+.max-w-450{
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
 
 .col-2{
  display: flex;
@@ -432,5 +442,10 @@ width: 100%;
     .hide-mobile {
       display:block;
     }
+    .track-bg{
+      background: url("img/track-workout-training-pempelfort-derendorf.svg");
+      background-size: cover;
+    }
+
 
 }
