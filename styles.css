@@ -1,7 +1,7 @@
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
-
+  width: 100%;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -275,6 +275,9 @@ width: 100%;
 @media screen and (min-width: 700px){
   .child-320:nth-child(2n+1){
     margin-right: 16px;
+  }
+  .child-320:nth-last-child(1){
+    margin-right: 0;
   }
 }
 
