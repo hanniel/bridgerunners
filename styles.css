@@ -117,6 +117,18 @@ p{
     transform-origin: bottom right;
 }
 
+.social{
+  width:32px;
+  margin: 4px 8px -14px 8px;
+  height:auto;
+  transform: rotate(0deg);
+  filter: invert(40%) sepia(80%) saturate(6715%) hue-rotate(360deg) brightness(101%) contrast(107%);
+}
+
+.svg-hover-2:hover {
+  filter: none;
+}
+
 /* INTRO */
 .intro-animation{
   opacity: 0;
@@ -205,7 +217,7 @@ height: 40vh;
 width: 100%;
 }
 
-.track-thursday-svg:hover {
+.svg-hover:hover {
   filter: invert(40%) sepia(80%) saturate(6715%) hue-rotate(360deg) brightness(101%) contrast(107%);
 }
 
@@ -366,6 +378,10 @@ width: 100%;
       left: -190px;
       transform-origin: bottom right;
       transform: rotate(-90deg);
+  }
+
+  .social{
+    transform: rotate(90deg);
   }
 
   .delay6{
