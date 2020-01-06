@@ -197,6 +197,10 @@ height: 40vh;
 width: 100%;
 }
 
+.track-thursday-svg:hover {
+  filter: invert(40%) sepia(80%) saturate(6715%) hue-rotate(360deg) brightness(101%) contrast(107%);
+}
+
 .start-bg{
   animation: stretch 1.1s ease-in-out forwards;
 }
@@ -370,7 +374,7 @@ width: 100%;
 
   .intro-svg{
       max-width: 200px;
-      margin-top: calc(40vh - 140px);
+      margin-top: calc(40vh - 146px);
       margin-left: calc(100% - 200px);
 
     }
