@@ -5,9 +5,9 @@ html{
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body{
@@ -116,10 +116,10 @@ p{
 
 .main-nav{
   position: absolute;
-    width: 240px;
-    top: 32px;
-    left: 18px;
-    transform-origin: bottom right;
+  width: 240px;
+  top: 32px;
+  left: 18px;
+  transform-origin: bottom right;
 }
 
 .social{
@@ -151,38 +151,43 @@ p{
   animation: intro-animation 0.6s ease-out forwards;
   animation-delay: 1.2s;
   transform: translateY(9);
-  }
+}
 
-  @keyframes intro-animation{
-    to {
+@keyframes intro-animation{
+  to {
     opacity: 1;
     transform: translateY(11vh);
-    }
   }
+}
 
-  .intro-svg{
-    max-width: 160px;
-    margin-top: calc(40vh - 120px);
-    margin-left: calc(100% - 200px);
-
-  }
+.intro-svg{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+  bottom: -60px;
+  right: 4px;
+  /* margin-top: calc(40vh - 120px);
+  margin-left: calc(100% - 200px); */
+}
 
 .fade{
   opacity: 0;
   transform:translateY(5px);
   animation: fade 0.6s ease-out forwards;
-  }
+}
 
-  @keyframes fade{
-    to { opacity: 1; transform:translateY(0px);  }
-  }
+@keyframes fade{
+  to { opacity: 1; transform:translateY(0px);  }
+}
 
 .delay4{
-      animation-delay: 0.8s;
-    }
+  animation-delay: 0.8s;
+}
 .delay6{
-    animation-delay: 0.6s;
-  }
+  animation-delay: 0.6s;
+}
 .delay8{
   animation-delay: 0.4s;
 }
@@ -203,7 +208,6 @@ p{
 .intro{
   height: 40vh;
   background-color: #000;
-  z-index: 2;
 }
 
 
@@ -218,21 +222,22 @@ p{
   background-color: #ff3c00;
   z-index: 1;
   animation: reveal 1s ease-in-out forwards;
-  }
+}
 
-  @keyframes reveal{
-    0% {width: 100%; transform: translateX(100%);}
-    70%{width: 100% ;transform: translateX(0%);}
-    100%{width: 0%; margin-right: left;}
-  }
+@keyframes reveal{
+  0% {width: 100%; transform: translateX(100%);}
+  70%{width: 100% ;transform: translateX(0%);}
+  100%{width: 0%; margin-right: left;}
+}
 
 
 .intro-img{
-background-color: #000;
-background-size: cover;
-background-position: center ;
-height: 40vh;
-width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: center ;
+  height: 40vh;
+  width: 100%;
+  position:relative;
 }
 
 .svg-hover:hover {
@@ -303,9 +308,9 @@ width: 100%;
 
 
 .col-2{
- display: flex;
- flex-wrap: wrap;
- width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .child-320{
@@ -399,8 +404,8 @@ width: 100%;
 
   @keyframes intro-animation{
     to {
-    opacity: 1;
-    transform: translateY(6vh);
+      opacity: 1;
+      transform: translateY(6vh);
     }
   }
 
@@ -408,11 +413,11 @@ width: 100%;
 
   .main-nav{
     position: absolute;
-      width: 240px;
-      top: 0;
-      left: -190px;
-      transform-origin: bottom right;
-      transform: rotate(-90deg);
+    width: 240px;
+    top: 0;
+    left: -190px;
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
   }
 
   .rotate{
@@ -420,11 +425,11 @@ width: 100%;
   }
 
   .delay4{
-      animation-delay: 0.4s;
-    }
-    .delay6{
-        animation-delay: 0.6s;
-      }
+    animation-delay: 0.4s;
+  }
+  .delay6{
+    animation-delay: 0.6s;
+  }
   .delay8{
     animation-delay: 0.8s;
   }
@@ -438,19 +443,22 @@ width: 100%;
   }
 
   .intro-svg{
-      max-width: 200px;
-      margin-top: calc(40vh - 146px);
-      margin-left: calc(100% - 200px);
+    /* max-width: 200px;
+    margin-top: calc(40vh - 146px);
+    margin-left: calc(100% - 200px); */
+    height: 200px;
+    width: 200px;
+    bottom:-100px;
+    right :100px;
+  }
 
-    }
-
-    .hide-mobile {
-      display:block;
-    }
-    .track-bg{
-      background: url("img/track-workout-training-pempelfort-derendorf.svg");
-      background-size: cover;
-    }
+  .hide-mobile {
+    display:block;
+  }
+  .track-bg{
+    background: url("img/track-workout-training-pempelfort-derendorf.svg");
+    background-size: cover;
+  }
 
 
 }
