@@ -151,6 +151,7 @@ p{
   animation: intro-animation 0.6s ease-out forwards;
   animation-delay: 1.2s;
   transform: translateY(9);
+  z-index:2;
 }
 
 @keyframes intro-animation{
@@ -168,6 +169,7 @@ p{
   width: 160px;
   bottom: -60px;
   right: 4px;
+  z-index: 3;
   /* margin-top: calc(40vh - 120px);
   margin-left: calc(100% - 200px); */
 }
@@ -208,6 +210,11 @@ p{
 .intro{
   height: 40vh;
   background-color: #000;
+  z-index:2;
+}
+
+.intro > .container{
+  z-index:2;
 }
 
 
