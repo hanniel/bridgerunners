@@ -120,6 +120,7 @@ p{
   top: 32px;
   left: 18px;
   transform-origin: bottom right;
+  z-index: 4;
 }
 
 .social{
