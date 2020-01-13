@@ -4,6 +4,13 @@ html{
   width: 100%;
 }
 
+/* Cookie Consent */
+  .cc-animate.cc-revoke.cc-bottom , .cc-revoke .cc-bottom .cc-right{
+    z-index:-99;
+    bottom: -80px;
+    display:none;
+}}
+
 @media screen and (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -40,7 +47,7 @@ a:hover{
   opacity: 0.7;
 }
 
-.inline-link:hover{
+.inline-link:hover, .cc-link{
   color: #ff3c00;
   border: none;
   opacity: 1;
@@ -328,7 +335,7 @@ p{
   display:none;
 }
 
-.no-margin{
+.no-margin, .cc-link{
   margin: 0;
 }
 .margin-60{

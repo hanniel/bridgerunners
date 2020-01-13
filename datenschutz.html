@@ -1,11 +1,16 @@
 <!doctype html>
 
 <html lang="de">
+
+<!-- Cookie Snippet -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
 <head>
   <meta charset="utf-8">
 
-  <title>Bridgerunners Düsseldorf</title>
-  <meta name="description" content="Running Crew based in Düsseldorf, Germany">
+  <title>Datenschutzerklärung der Bridgerunners Düsseldorf</title>
+  <meta name="description" content="Datenschutzerklärung der Bridgerunners Düsseldorf">
   <meta name="author" content="SitePoint">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="styles.css?v=1.0">
@@ -66,16 +71,87 @@ Kühlwetterstraße 47<br />
       </div>
     </div>
   </div>
-  
+
   <!-- Footer -->
 
   <div class="dark-bg flex-center">
     <div class="container fade delay18">
-      <p class="light" style="max-width: 600px;">
+      <p class="light" style="line-height: 2.2;">
+        <a class="inline-link  naked-link"  href="https://www.instagram.com/bridge.runners/" target="_blank">
+          <img class="social svg-hover-2" src="img/instagram.svg" alt="">
+        </a>
+        <a class="inline-link  naked-link"  href="https://www.strava.com/clubs/bridge-runners" target="_blank">
+          <img class="social svg-hover-2" src="img/strava.svg" alt="">
+        </a>
         <a class="inline-link" href="impressum.html">Impressum</a>
         <a class="inline-link" href="datenschutz.html">Datenschutzerklärung</a> </p>
     </div>
   </div>
 
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#222"
+    },
+    "button": {
+      "background": "#ff3c00",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "edgeless",
+  "position": "bottom-right",
+  "type": "opt-in",
+  "content": {
+    "message": "Diese Webseite verwendet Cookies, um die Benutzerfreundlichkeit unserer Seite zu optimieren.",
+    "dismiss": "Ausblenden",
+    "deny": "Ablehnen",
+    "allow": "Cookies erlauben",
+    "link": "Mehr erfahren",
+    "href": "http://bridgerunners.de/datenschutz"
+  },
+   onInitialise: function (status) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+    // enable cookies
+        window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+         gtag('config', 'UA-154698277-1', { 'anonymize_ip': true });
+    }
+    if (type == 'opt-out' && !didConsent) {
+    // disable cookies
+    }
+    },
+    onStatusChange: function(status, chosenBefore) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+    // enable cookies
+        window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+         gtag('config', 'UA-154698277-1', { 'anonymize_ip': true });
+    }
+    if (type == 'opt-out' && !didConsent) {
+    // disable cookies
+    }
+    },
+    onRevokeChoice: function() {
+    var type = this.options.type;
+    if (type == 'opt-in') {
+    // disable cookies
+    }
+    if (type == 'opt-out') {
+    // enable cookies
+    }
+    }
+});
+</script>
+
 </html>
