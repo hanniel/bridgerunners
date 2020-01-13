@@ -306,8 +306,9 @@ p{
   height: auto;
 }
 
+/* 100vh - footerheight -padding-60*/
 .min-height-100{
-  min-height: 100vh;
+  min-height: calc(100vh - 154px - 120px);
 }
 
 .col-2{
