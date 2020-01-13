@@ -306,6 +306,10 @@ p{
   height: auto;
 }
 
+.min-height-100{
+  min-height: 100vh;
+}
+
 .col-2{
   display: flex;
   flex-wrap: wrap;
