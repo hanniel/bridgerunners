@@ -268,8 +268,8 @@ p{
 
 @keyframes stretch{
   99.9%{background-color: #000;}
-  100%{background: url(img/lauftraining-intervalle-duesseldorf-leichtathletik-bahn.jpg) 50% 40% ; }
-  100%{background: url(img/lauftraining-intervalle-duesseldorf-leichtathletik-bahn.jpg) 50% 40% ;}
+  100%{background: url(img/lauftraining-intervalle-duesseldorf-leichtathletik-bahn-2.jpg) 50% 40% ; }
+  100%{background: url(img/lauftraining-intervalle-duesseldorf-leichtathletik-bahn-2.jpg) 50% 40% ;}
 }
 .runners-bg{
   animation: stretch-2 1.2s ease-in-out forwards;
