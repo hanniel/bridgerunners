@@ -125,11 +125,8 @@ p{
 /* NAVIGATION BAR */
 
 .main-nav{
-  position: absolute;
-  width: 340px;
-  top: 32px;
-  left: 18px;
-  transform-origin: bottom right;
+  position: relative;
+  height: 72px;
   z-index: 4;
 }
 
@@ -468,12 +465,7 @@ p{
   /* NAVIGATION BAR */
 
   .main-nav{
-    position: absolute;
-    width: 240px;
-    top: 0;
-    left: -190px;
-    transform-origin: bottom right;
-    transform: rotate(-90deg);
+   
   }
 
   .rotate{
