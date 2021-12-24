@@ -125,8 +125,9 @@ p{
 /* NAVIGATION BAR */
 
 .main-nav{
-  position: relative;
+  position: absolute;
   height: 72px;
+  padding: 0 12px;
   z-index: 4;
 }
 
